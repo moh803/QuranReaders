@@ -22,6 +22,10 @@ currently QuranReaders with the coding language React.js is being programmed whe
 onto the website
 
 
+if the user interface is not working please contact us to fix the issues as fast as possible 
+the user interface may not be good or looking nice because we have changed our coding languague then we work on the user interface inshAllah
+
+
 current website url : https://quran-readers.netlify.app
 
 owner : Muhammed Ibn Younis
