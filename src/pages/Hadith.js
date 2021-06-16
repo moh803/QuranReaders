@@ -1,10 +1,9 @@
 import React from 'react'
-
+import HadithHeader from '../components/HadithHeader';
 export default function Hadith() {
     return (
         <div>
-            <h1>Hadtih</h1>
-            <small>QuranReaders</small>
+            <HadithHeader />
         </div>
     )
 }

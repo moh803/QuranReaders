@@ -1,10 +1,12 @@
 import React from 'react'
+import QuranHeader from '../components/QuranHeader';
+// import Header from '../components/Header';
+import Home from './Home';
 
 export default function Quran() {
     return (
         <div>
-            <h1>Quran</h1>
-            <small>Quran page</small>
+            <QuranHeader /> 
         </div>
     )
 }

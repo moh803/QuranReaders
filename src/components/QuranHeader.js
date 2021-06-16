@@ -15,7 +15,7 @@ export default function Header() {
             <nav>
                 <ul className="nav__links">
                     
-                    <Link to={"/quran"}><li>Quran</li></Link>
+                    <Link to={"/"}><li>Home</li></Link>
                     <Link to={"/hadith"}><li>Hadith</li></Link>
                     <Link to={"/debate"}><li>Debate</li></Link>
                 </ul>

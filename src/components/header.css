@@ -1,6 +1,52 @@
-.header{ 
+:root {
+    --header-background: rgb(27, 27, 27);
+    --header-text: #fff;
+    --header-text-hover: #0088a9;
+}
+.header *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header li, a, button {
     font-family: sans-serif;
-    width: 100%;
-    color: #fff;
-    background-color: #4a5a5a;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--header-text);
+    text-decoration: none;
+}
+.header header {
+    background-color: var(--header-background);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+}
+.header .nav__links li {
+    margin: 5px;
+}
+.header .nav__links{
+    list-style: none;
+}
+.header .nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.header .nav__links li a {
+    transition: all 0.3 ease 0s;
+}
+.header .nav__links li a:hover{
+    background-color: var(--header-text-hover);
+}
+.header .logo {
+    color: var(--header-text);
+    font-family: sans-serif;
+}
+.header .logo .logo-color {
+    color: rgb(255, 118, 118);
+}
+@media screen and (min-width: 868px) {
+    .header .logo {
+        display: hidden;
+    }
 }

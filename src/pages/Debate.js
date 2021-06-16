@@ -1,10 +1,10 @@
 import React from 'react'
+import DebateHeader from '../components/DebateHeader';
 
 export default function Debate() {
     return (
         <div>
-            <h1>Debates</h1>
-            <small>QuranReaders</small>
+            <DebateHeader />
         </div>
     )
 }
